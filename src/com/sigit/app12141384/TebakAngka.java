@@ -188,6 +188,6 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
             System.out.println(namaPenguna.get(l) + " : " + nilaiPermainan.get(l)); 
         }
     }
-}
 
-        }
+
+        
