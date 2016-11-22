@@ -156,6 +156,15 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
                    
                     if(CekGameOver>0){
                         break;
-                        
+                        }
+                    // Level 5 adalah Level Maksimal
+                    if(PiLevel==5){ // Jika sudah Mencapai Level 5, langsung di break/otomatis Exit
+                        break;
+                    }
+                    else{
+                    aKumulasi[StarNilaiO]=NilaiPasJalan;   
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                    nextLevel=input.nextLine(); 
+                    PiLevel++; 
                 }
                     
