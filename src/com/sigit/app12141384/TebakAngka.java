@@ -22,3 +22,11 @@ public class TebakAngka {
         Scanner input = new Scanner(System.in);
         Random angkaRandom=new Random();
         String Na="no";
+         boolean PlayaGain = false;
+        String cariY; // Untuk mencari nilai Y, jika input y, maka otomatis akan keluar
+        do{
+            System.out.println("Masukkan 'Nama' anda atau tekan 'k' untuk keluar, kemudian tekan enter = ");
+            cariY=input.nextLine();
+            namaPemakai.add(cariY);
+            // star
+            if(!("y").equals(cariY)){
