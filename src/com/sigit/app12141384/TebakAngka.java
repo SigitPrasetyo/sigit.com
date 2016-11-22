@@ -34,7 +34,7 @@ public class TebakAngka {
                 // Tebak
                 
               // ------------------- START EDIT HERE
-                String nextLevel; // untuk Menaikkan Level
+                String nextLevel; 
                 int berakhir;
                 do{    
          int cobalagi=5;
@@ -83,4 +83,10 @@ public class TebakAngka {
         int l;
         for(l=0;l<jumPemain-1;l++){
             System.out.println(namaPemakai.get(l));
-            
+ArrayList <String> namaPemain = new ArrayList<>(); 
+       ArrayList <Integer> nilaiPenguna = new ArrayList<>(); 
+        Scanner input = new Scanner(System.in); 
+        Scanner input2= new Scanner(System.in); 
+        Random angkaRandom=new Random(); 
+        String cariY; 
+        do{
