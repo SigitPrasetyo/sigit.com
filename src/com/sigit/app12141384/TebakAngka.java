@@ -30,3 +30,12 @@ public class TebakAngka {
             namaPemakai.add(cariY);
             // star
             if(!("y").equals(cariY)){
+             // Mulai Tebak
+                // Tebak
+                
+              // ------------------- START EDIT HERE
+                String nextLevel; // untuk Menaikkan Level
+                int berakhir;
+                do{    
+        
+            
