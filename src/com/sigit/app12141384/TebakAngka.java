@@ -138,6 +138,24 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
                                         NilaiPasJalan=0; 
                                         break;
                                 }
-                                
+                                 System.out.println("Selamat Anda berhasil menebak Angka dalam " + NeTebak + " kali tebakan. Sekor anda adalah " + NilaiPasJalan);
+                                break;
+
+                            }
+                            else{ // Gagal menebak, akan dimumculkan informasi dan sisa tebakan yang bisa dilakukan
+                                if(AkuTeb>AngKaAcak){
+                                    System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); 
+                                }
+                                else{
+
+                                    System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); 
+                                }
+                            }
+                        }
+                    }
+                   
+                    if(CekGameOver>0){
+                        break;
+                        
                 }
                     
