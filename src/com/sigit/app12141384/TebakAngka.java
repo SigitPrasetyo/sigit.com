@@ -17,4 +17,8 @@ public class TebakAngka {
     public int angkaTebakAcak;
     public int cobaLagi;
     public int nilai;
-    
+    ArrayList <String> namaPenguna = new ArrayList<>();
+        ArrayList <Integer> nilaiPermainan = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
+        Random angkaRandom=new Random();
+        String Na="no";
