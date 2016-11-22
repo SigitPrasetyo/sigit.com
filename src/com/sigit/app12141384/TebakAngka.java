@@ -37,5 +37,50 @@ public class TebakAngka {
                 String nextLevel; // untuk Menaikkan Level
                 int berakhir;
                 do{    
-        
+         int cobalagi=5;
+                    int Kout, Ang, Pang;
+                    int PiLevel=0;
+                    System.out.println("# Level 1");
+                    System.out.println("Selamat bergabung " + cariY);
+                    Pang=PiLevel+1*100;
+                    System.out.println("Silahkan Tebak Antara 1 s/d " + Pang);
+                    int AngKaTebakAcak=angkaRandom.nextInt(Pang);
+                    for(Kout=0;Kout<=4;Kout++){
+
+                        System.out.println("Tebakan Anda ? " + AngKaTebakAcak);
+                        int AkuTeb=input.nextInt();
+                        int Kurang=4-Kout;
+                        if(AkuTeb==AngKaTebakAcak){
+                            System.out.println("Jawaban Betul");
+                            break;
+                            
+                        }
+                        else{
+                            if(AkuTeb>AngKaTebakAcak){
+                                System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
+                            }
+                            else{
+                                System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
+                            }
+                        }
+                    }
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau 'exit' untuk keluar : ");
+                    nextLevel=input.nextLine();
+                    PiLevel++;
+                    
+                   
+                }
+                while(!"exit".equals(nextLevel));
+              
+              // ------------------- END OF EDIT
+            } // Stop Looping Nama Pemain
+            
+        }        
+        while(!"y".equals(cariY));
+        int jumPemain=namaPemakai.size();
+        System.out.println("SCORE");
+        System.out.println("=================================");
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(namaPemakai.get(l));
             
