@@ -167,4 +167,15 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
                     nextLevel=input.nextLine(); 
                     PiLevel++; 
                 }
-                    
+                      }
+                   
+                }
+                while(!"exit".equals(nextLevel));
+              
+              // ------------------- END OF SCRIPT GAME TEBAK
+            } 
+            // Ngolah Nilai
+            for(int rO=0; rO<5; rO++){ 
+            }
+            nilaiPermainan.add(NilaiJalan); 
+           
