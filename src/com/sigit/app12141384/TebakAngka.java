@@ -116,4 +116,28 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
                             System.out.println("GAMEOVER! Anda Gagal");
                             CekGameOver++; 
                         }
+                         else{ 
+                            System.out.println("Tebakan Anda ? " + AngKaAcak);
+                            int AkuTeb=input2.nextInt(); 
+                            int Kurang=4-Kout;
+                            if(AkuTeb==AngKaAcak){ 
+                                switch (Kout) {
+                                    case 0:
+                                        NilaiPasJalan=PiLevel*100; 
+                                        break;
+                                    case 1:
+                                        NilaiPasJalan=PiLevel*70;
+                                        break;
+                                    case 2:
+                                        NilaiPasJalan=PiLevel*50; 
+                                        break;
+                                    case 3:
+                                        NilaiPasJalan=PiLevel*30; 
+                                        break;
+                                    default:
+                                        NilaiPasJalan=0; 
+                                        break;
+                                }
+                                
                 }
+                    
