@@ -90,3 +90,8 @@ ArrayList <String> namaPemain = new ArrayList<>();
         Random angkaRandom=new Random(); 
         String cariY; 
         do{
+System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian tekan enter = ");
+            cariY=input.nextLine();
+            namaPenguna.add(cariY);
+            int NilaiJalan = 0;  
+            int CekGameOver=0; 
