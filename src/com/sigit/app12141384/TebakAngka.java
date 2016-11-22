@@ -95,3 +95,14 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
             namaPenguna.add(cariY);
             int NilaiJalan = 0;  
             int CekGameOver=0; 
+ int aKumulasi[]= new int[6]; 
+            int NilaiPasJalan=0; 
+            // Mulai Ngegame
+            if(!("y").equals(cariY)){  
+              // ------------------- START SCRIPT TEBAK DISINI --------------------------  
+                String nextLevel;  
+                int PiLevel=1;   /
+                System.out.println("Selamat Datang " + cariY); 
+                do{
+                    
+                }
