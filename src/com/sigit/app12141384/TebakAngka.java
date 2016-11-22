@@ -178,4 +178,16 @@ System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian t
             for(int rO=0; rO<5; rO++){ 
             }
             nilaiPermainan.add(NilaiJalan); 
-           
+            }        
+        while(!"y".equals(cariY)); 
+        int jumPenguna=namaPenguna.size(); 
+        System.out.println("SCORE AKHIR");
+        System.out.println("=================================");
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(namaPenguna.get(l) + " : " + nilaiPermainan.get(l)); 
+        }
+    }
+}
+
+        }
